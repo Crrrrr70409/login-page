@@ -1,0 +1,175 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(238, 232, 232);
+  height: auto;
+  width: auto;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  flex-shrink: 20px;
+  min-width: 600px;
+}
+.form-container {
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+}
+
+.form-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-writings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 2px;
+  display: block;
+}
+
+.input-two {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: auto;
+}
+
+.input-two > a {
+  color: rgb(192, 192, 197);
+  font-size: smaller;
+}
+
+.form-checkbox {
+  margin-top: 20px;
+  display: inline-flex;
+}
+
+.form-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-buttons a {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  height: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  margin-top: 10px;
+  gap: 20px;
+  padding: 20px;
+  font-size: medium;
+}
+
+.login-button {
+  border: 2px solid #000000;
+  border-radius: 20px;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+}
+
+.login-button > a {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.logInWithGoogle {
+  border: 2px solid rgb(238, 232, 232);
+  border-radius: 20px;
+  background-color: rgb(238, 232, 232);
+  color: black;
+  padding: 10px;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-footer > h3 {
+  color: rgb(77, 77, 82);
+}
+
+.signup {
+  color: #000000;
+}
+
+@media (max-width: 640px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    width: auto;
+  }
+  .image {
+    height: 0;
+    width: 0;
+  }
+  .main-container {
+    display: block;
+  }
+}
